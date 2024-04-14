@@ -1,0 +1,8 @@
+Q-1 select * from worker where first_name='Vipin'
+    intersect
+    select * from worker where first_name='Vipin';
+
+
+Q-2. select * from employee where department_id in (10,20,30)
+     minus
+     select * from employee where department_id in (40,50,30);
