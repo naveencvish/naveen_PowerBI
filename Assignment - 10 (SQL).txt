@@ -1,0 +1,7 @@
+Q-1.  select max(salary) from employees
+      where salary<(select max(salary) from employees where salary <(select max(salary) from employees
+      where salary<(select max(salary) from employees where salary<(select max(salary) from employees))));
+
+Q-2.  select * 
+	from worker w1 join worker w2
+	on w1.salary = w2.salary and w1.worker_id <> w2.worker_id;
