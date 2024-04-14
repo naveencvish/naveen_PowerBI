@@ -1,0 +1,9 @@
+Q-1. select * from Worker where year(JOINING_DATE) = 2014 and month(JOINING_DATE) = 2;
+
+Q-2. select * from Employees
+     union all
+     select * from Employees;
+
+Q-3. select * from Employees
+     union
+     select * from Employees;
