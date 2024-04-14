@@ -1,0 +1,6 @@
+Q-1. select FIRST_NAME as WORKER_NAME FROM Worker;
+
+Q-2. select distinct DEPARTMENT FROM Worker;
+
+Q-3. select top 5 * from table_name
+     order by column_name desc;
