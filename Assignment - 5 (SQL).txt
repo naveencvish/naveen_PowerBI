@@ -1,0 +1,8 @@
+Q-1. select * from worker where first_name not in ('Vipul','Satish');
+
+
+Q-2. select * from where first_name like '%_____h';
+
+
+Q-3. select email from employee where email like '%@%';
+             
