@@ -1,0 +1,5 @@
+Q-1. select rtrim(first_name) from worker;
+
+Q-2. select distinct Department, len(Department) as length from worker;
+
+Q-2. select top n salary_column from table order by salary_column desc; 
