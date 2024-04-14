@@ -1,0 +1,4 @@
+Q-1.  select * from worker where mod(worker_id,2) = 0;
+
+
+Q-2.  CREATE TABLE new_table SELECT * FROM original_table;
